@@ -176,7 +176,7 @@ p {
 }
 
 p a {
-  color: #007bff;
+  color: blue;
   text-decoration: none;
 }
 
@@ -206,7 +206,6 @@ p a {
 .card p {
   font-size: 90%;
   line-height: 1.25;
-  color: #6b6b6b;
   padding: 0 1rem  1rem;
 }
 
@@ -233,9 +232,6 @@ p a {
   margin-top: 5px; 
 }
 
-.upgrades {
-  display: flex;
-}
 
 .reviews {
   font-family: 'Arial', sans-serif;
@@ -245,12 +241,12 @@ p a {
 .reviews h3 {
   font-size: 18px;
   font-weight: bold;
-  margin-bottom: 10px;
+  margin-bottom: 5px;
 }
 
 .reviews ul {
   list-style-type: disc;
-  padding-left: 20px;
+  padding-right: 20px;
 }
 
 .reviews li {
@@ -281,6 +277,19 @@ p a {
   background-color: #125862;
 }
 
+.vehicle-names {
+  position: relative;
+}
+
+.vehicle-names ul {
+  position: absolute;
+  top: 0;
+  left: 5px;
+  padding: 20px; 
+  margin: 20px; 
+  color: blue;
+  background-color: inherit;
+}
 
 /* footer css*/
 footer {
