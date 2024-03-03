@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title><%- title %> | CSE 340 App</title>
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+<body>
+
+    <header id="top-header">
+        <span class="siteName">
+          <a href="/" title="Return to home page">CSE Motors</a>
+        </span>
+        <div id="tools">
+          <a title="Click to log in" href="/">My Account</a>
+        </div>
+      </header>
+
+      <nav>
+        <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">Custom</a></li>
+            <li><a href="/">Sedan</a></li>
+            <li><a href="/">SUV</a></li>
+            <li><a href="/">Track</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <div class="container">
+            <h2>Welcome to CSE Motors</h2>
+            <div id="vehicles" class="vehicle-names">
+                <h3>DMC Delorean</h3>
+                <ul>
+                    <li>3 Cup holders</li>
+                    <li>Superman doors</li>
+                    <li>Fuzzy dice</li>
+                </ul>
+                <div class="card">
+                <picture>
+                    <img src="images/vehicles/delorean.jpg" alt="delorean" loading="lazy">
+                </picture>
+            </div>
+            <button>Own Today</button>
+            </div>
+            <div id="details">
+                <div class="upgrades">
+                    <h3>Delorean Upgrades</h3>
+
+                    <div class="card">
+                    <picture>
+                        <img src="images/upgrades/bumper_sticker.jpg" alt="bumper-sticker" loading="lazy">
+                        <p><a href="/">Bumper sticker</a></p>
+                    </picture>
+                    </div>
+
+                    <div class="card">
+                    <picture>
+                        <img src="images/upgrades/flame.jpg" alt="flame" loading="lazy">
+                    </picture>
+                    <p><a href="/">Flame</a></p>
+                    </div>
+
+                    <div class="card">
+                    <picture>
+                        <img src="images/upgrades/flux-cap.png" alt="flux-capacitor" loading="lazy">
+                        <p><a href="/">flux-cap</a></p>
+                    </picture>
+                    </div>
+                    
+                    <div class="card" >
+                    <picture>
+                        <img src="images/upgrades/hub-cap.jpg" alt="hub-cap" loading="lazy">
+                        <p><a href="/">Hub Cap</a></p>
+                    </picture>
+                </div>
+
+                <div class="reviews">
+                    <h3>DMC Delorean Reviews</h3>
+                    <ul>
+                        <li>"So fast it's almost travelling in time." (4/5)</li>
+                        <li>"Coolest ride on the road." (4/5)</li>
+                        <li>"I'm feeling McFly!." (4.5/5)</li>
+                        <li>"80's livin and I love it!." (5/5)</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</main>
+<% const d = new Date(); 
+let year = d.getFullYear(); %>
+<footer>
+    <p class="copyright">&copy; <%= year %>, CSE 340 App</p>
+</footer>
+</body>
+
+</html>
+

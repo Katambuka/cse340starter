@@ -14,3 +14,9 @@ node_modules
 
 # .DS_Store is only for Mac users
 **/.DS_Store
+
+#ignoring readme file
+README.md
+
+#ignore my packages / directory because it's generated automatically with npm pack
+pnpm-lock.yaml
