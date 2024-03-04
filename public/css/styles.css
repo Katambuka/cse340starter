@@ -98,9 +98,6 @@ html {
   font-family: 'Open Sans', sans-serif;
   height: 75%;
   background: url("../images/site/small_check.jpg") no-repeat center fixed;
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
   background-size: cover;
 }
 
@@ -270,11 +267,11 @@ p a {
 }
 
 .button:hover {
-  background-color: #0CCC;
+  background-color: teal;
 }
 
 .button:active {
-  background-color: #125862;
+  background-color: teal;
 }
 
 .vehicle-names {
@@ -287,8 +284,9 @@ p a {
   left: 5px;
   padding: 20px; 
   margin: 20px; 
-  color: blue;
+  color: teal;
   background-color: inherit;
+  z-index: 10;
 }
 
 /* footer css*/
